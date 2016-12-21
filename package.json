@@ -1,0 +1,24 @@
+{
+  "name": "null-coalescing",
+  "version": "1.0.0",
+  "description": " Simulate null-coalescing operator like in php with a function (NodeJS) ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Purexo/null-coalescing.js.git"
+  },
+  "keywords": [
+    "null-coalescing",
+    "short-ternary",
+    "_.get"
+  ],
+  "author": "purexo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Purexo/null-coalescing.js/issues"
+  },
+  "homepage": "https://github.com/Purexo/null-coalescing.js#readme"
+}
