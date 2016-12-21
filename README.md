@@ -4,6 +4,8 @@ Simulate null-coalescing operator like in php with a function
 ## Installation
 ```bash
 $ npm install --save null-coalescing
+$ # or
+$ npm install --save git+https://github.com/Purexo/null-coalescing.js.git # if you don't want depend to npm-registery
 ```
 
 ## Usage
