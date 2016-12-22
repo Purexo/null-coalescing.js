@@ -1,6 +1,6 @@
 {
   "name": "null-coalescing",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": " Simulate null-coalescing operator like in php with a function (NodeJS) ",
   "main": "index.js",
   "scripts": {

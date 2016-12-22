@@ -62,13 +62,13 @@ catch (e) {}
 Yeah `value` is OK (with so many unclear lines)
 
 ### Let's magic enter in your heart !
-Notice `[bar]` in 2nd argument and `{baz}` the last argument or in bind or first arg of call
+Notice `[bar]` in 2nd argument and `{bar}` the last argument or in bind or first arg of call
 
 ```js
-$N(object, `[bar].baz.name`, 'default', {baz}) // 'name'
-$N.bind({baz})(object, `[bar].baz.name`) // 'name'
-$N.call({baz}, object, `[bar].baz.name` // 'name'
-$N.call({baz}, object, `[bar].baz.name.notExistroperty` // undefined
+$N(object, `[bar].baz.name`, 'default', {bar}) // 'name'
+$N.bind({bar})(object, `[bar].baz.name`) // 'name'
+$N.call({bar}, object, `[bar].baz.name` // 'name'
+$N.call({bar}, object, `[bar].baz.name.notExistroperty` // undefined
 // object[bar].baz.name || 'default' // but without TypeError throwed in your face <3
 ```
 
